@@ -17,6 +17,6 @@ case "$operacao" in
         ;;
         *)
         echo "Operacao invalida!"
-        echo "Selecione descompactar ou compactar"
+	echo "Uso: $0 (compactar|descompactar)"
         exit 1
 esac
